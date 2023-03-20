@@ -5,5 +5,4 @@ def simple_delete(a_dictionary, key=""):
             del a_dictionary[key]
         return a_dictionary
 
-    #    return a_dictionary.pop(key, None)
-
+#    return a_dictionary.pop(key, None)
