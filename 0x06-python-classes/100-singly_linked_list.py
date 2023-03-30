@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Node module """
 
+
 class Node:
     """ Declares the Node class """
 
@@ -37,6 +38,7 @@ class Node:
             raise TypeError("next_node must be a Node object")
         else:
             self.__next_node = value
+
 
 class SinglyLinkedList:
     """ define a SinglyLinkedList Class """
