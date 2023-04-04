@@ -3,12 +3,12 @@
 import sys
 
 
-def print_board(board):
+    def print_board(board):
     """Print a board."""
     print([[i, val] for i, val in enumerate(board)])
 
 
-def valid(board, column):
+    def valid(board, column):
     """Check if a board state is possible."""
     if column == 0:
         return True
@@ -18,7 +18,7 @@ def valid(board, column):
     return True
 
 
-def nqueens(board, column, n):
+    def nqueens(board, column, n):
     """Find the nqueens solutions possible from this board state."""
     if column == n:
         print_board(board)
@@ -32,7 +32,7 @@ def nqueens(board, column, n):
         nqueens(new_board, column + 1, n)
 
 
-def main():
+    def main():
     """Solve the n queens problem."""
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
