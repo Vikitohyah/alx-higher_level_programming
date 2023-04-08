@@ -94,7 +94,7 @@ checking regular implementation of text_indentation function
     <BLANKLINE>
     Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 
->>> text = "   Hello.  How are you?   "
+    >>> text = "   Hello.  How are you?   "
     >>> text_indentation(text)
     Hello.
     <BLANKLINE>
@@ -109,10 +109,10 @@ checking regular implementation of text_indentation function
     :
     <BLANKLINE>
 
->>> text_indentation("Hello")
+    >>> text_indentation("Hello")
     Hello
 
->>> text_indentation(" \n Hello. Whatcha up to?")
+    >>> text_indentation(" \n Hello. Whatcha up to?")
     <BLANKLINE>
      Hello.
     <BLANKLINE>
@@ -139,7 +139,7 @@ checking regular implementation of text_indentation function
     ...
     TypeError: text must be a string
 
-cheacking when None is passed
+checking when None is passed
 ::
     >>> text_indentation(None)
     Traceback (most recent call last):
