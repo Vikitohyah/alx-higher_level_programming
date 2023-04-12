@@ -13,6 +13,6 @@ def inherits_from(obj, a_class):
         use isinstance() to get class and parent classes as well
         use issubclass() to get what object is a subclass
     Return:
-        True if obj is instance of class that it inherits from or is subclass of
+        True if obj is instance of class that it inherits from or is subcls of
     """
     return (type(obj) is not a_class and issubclass(type(obj), a_class))

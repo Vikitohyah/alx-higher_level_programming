@@ -2,7 +2,7 @@
 """
 Module 1-my_list
 Contains class MyList
-inherits from list; has public instance method to print sorted list
+inherits from list; has public instance method to print sorted
 """
 
 
@@ -12,5 +12,5 @@ class MyList(list):
     print_sorted(self)
     """
     def print_sorted(self):
-        """prints list of ints sorted all in ascending order"""
+        """prints list of ints all sorted in ascending order"""
         print(sorted(self))
