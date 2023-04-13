@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-script to save and load to a json file
+A script to save and load to a json file
 """
 from sys import argv
 save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
@@ -17,7 +17,7 @@ except Exception:
 arg_len = len(argv)
 
 if arg_len > 1:
-    for i in range(1, arg_len):
-        my_list.append(argv[i])
+    for a in range(1, arg_len):
+        my_list.append(argv[a])
 
     save_to_json_file(my_list, filename)
